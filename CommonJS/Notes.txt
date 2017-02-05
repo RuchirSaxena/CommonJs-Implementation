@@ -1,0 +1,46 @@
+﻿CommonJS and its specifications
+
+Common Js
+common js is all about how 2 programmers who are 
+working on different modules can interact with eachother
+javascript till ES5 lacks modular development ,so the 
+developers at that time was using commom js , so common js
+developer will create exports variable and will give out
+all things he wants to expose and the person who consume
+will use the require keyword to get the object
+so we can say that common js is the specification in which
+we use the require and export keyword to define dependencies
+between 2 modules.
+
+Common JS Specification ->
+
+				Module A
+				    |
+					|
+				 Require
+				    |
+					|
+				 Exports
+				    |
+					|
+				 Module B	
+
+CommonJs is a specification to implement we need to use module loaders like 
+SystemJS,RequireJS ,Browserify ,Webpack ,curl ,LABjs ,almond)
+
+System Js ->It is a dynamic module loader
+when we create a project we divide it in differnt components/modules
+for eg: Customer , Supplier
+so we will have
+
+customer.js
+supplier.js
+
+Generally what we do is we load our component using
+script tag in our HTML file one by one
+
+
+
+
+
+

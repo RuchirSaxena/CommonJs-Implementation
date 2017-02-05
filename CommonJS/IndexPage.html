@@ -4,7 +4,24 @@
     <title></title>
 	<meta charset="utf-8" />
 </head>
+<script src="System.js"></script>
+<!--<script src="scripts/customer.js"></script>
+<script src="scripts/supplier.js"></script>-->
+
+
 <body>
+    <script>
+        alert("Customer Not needed till here");
+        //So below we are importing the customer.js and supplier.js
+        //on demand using system js
+        SystemJS.import('scripts/Customer.js').then(function () {
+            var cust = new Customer();
+        });
+        SystemJS.import('scripts/supplier.js').then(function () {
+            var supObj = new Supplier();
+        });
+       
+    </script>
 
 </body>
 </html>

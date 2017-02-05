@@ -76,6 +76,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="IndexPage.html" />
+    <Content Include="Notes.txt" />
+    <Content Include="scripts\customer.js" />
+    <Content Include="scripts\supplier.js" />
+    <Content Include="System.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
